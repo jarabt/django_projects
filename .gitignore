@@ -6,4 +6,5 @@
 # Python bytecode files
 *pyc
 
-
+# SQLite database
+db.sqlite3
