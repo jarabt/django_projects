@@ -62,6 +62,7 @@ class BookInstance(models.Model):
 
     class Meta:
         ordering = ['due_back']
+        permissions = (("can_see_all_borrowed", "Display all borrowed books"),)
 
     @property
     def is_overdue(self):
